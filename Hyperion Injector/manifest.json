@@ -1,0 +1,30 @@
+{
+    "name": "Hyperion",
+    "description": "Extension for https://www.roblox.com",
+    "version": "1.0.0",
+    "manifest_version": 3,
+
+    "action": {
+        "default_icon": "assets/Hype.png",
+        "default_popup": "Hyperion-Panel.html" 
+    },
+
+    "host_permissions": [
+        "https://*/*"
+    ],
+
+    "permissions": [
+        "cookies"
+    ],
+
+    "background": {
+        "service_worker": "scripts/executor.js"
+    },
+
+    "icons": {
+        "16": "assets/Hype.png",
+        "32": "assets/Hype.png",
+        "48": "assets/Hype.png",
+        "128": "assets/Hype.png"
+    }
+}
